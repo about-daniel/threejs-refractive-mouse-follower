@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  touch-action: none;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  background-image: linear-gradient(-225deg, #ffe9e9 0%, #def3ff 100%);
+}
